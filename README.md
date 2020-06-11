@@ -6,3 +6,6 @@ I am an avid traveler and like to think about famous people having been to simil
 
 # If hosting your app on Heroku, include your website's live Internet address:
 Sorry not hosting on Heroku :(
+
+# Error reporting:
+To submit anything to the page, you NEED to sign in, otherwise you get an error
