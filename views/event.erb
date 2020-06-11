@@ -2,6 +2,7 @@
     <div class="col-sm-9">
         <h1><%= @event[:title] %> <i class="fas fa-globe-americas"></i> </h1>
         <p><%= @event[:description] %></p>
+        <h3> Famous people that have been there:</h3>
         <% for rsvp in @rsvps %>
             <% user = @users_table.where(:id => rsvp[:user_id]).to_a[0] %>
             <div class="media">
